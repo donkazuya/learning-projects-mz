@@ -1,0 +1,1 @@
+Repositório dedicado a desafios enviados pela equipe MZIQ
