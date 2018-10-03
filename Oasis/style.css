@@ -4,11 +4,49 @@
   text-align: center; }
   #nav-menu ul li {
     display: inline-block;
-    padding: 50px 24px; }
+    padding: 50px 57px 50px 0; }
     #nav-menu ul li a {
       display: inline-block;
       text-transform: uppercase;
-      font-size: 16px; }
+      font-size: 16px;
+      color: #fff;
+      letter-spacing: 4.4px; }
+
+#home .home-box-left {
+  padding-left: 100px; }
+  #home .home-box-left h1 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 76px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px; }
+  #home .home-box-left h2 {
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 60px; }
+  #home .home-box-left .button-download-apple {
+    background-color: #6146d7;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 15px 25px 15px 20px; }
+    #home .home-box-left .button-download-apple p {
+      color: #fff;
+      font-size: 12px;
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px;
+      display: inline-block; }
+      #home .home-box-left .button-download-apple p strong {
+        text-transform: none;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 16px; }
+    #home .home-box-left .button-download-apple img {
+      display: inline-block;
+      margin-left: 65px;
+      vertical-align: top;
+      margin-top: 5px; }
 
 *, *:before, *:after, body {
   margin: 0;
