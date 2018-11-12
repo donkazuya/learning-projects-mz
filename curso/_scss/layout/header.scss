@@ -1,0 +1,27 @@
+.top-bar {
+    .social-media-icons {
+        background: green;
+        height: 30px;
+    }
+    .search {
+        background: red;
+        height: 30px;
+    }
+}
+.menu-area {
+    .menu {
+        ul {
+            li {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.footer-menu {
+    ul {
+        li {
+            display: inline-block;
+        }
+    }
+}

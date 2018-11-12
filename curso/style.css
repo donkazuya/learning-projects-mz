@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+Theme Name: Curso WordPress
+Theme URI: http://www.criandotemaswp.com
+Author: Danrley Candido
+Author URI: http://www.criandotemaswp.com
+Description: Tema do Wordpress voltado para o aprendizado de criação de Temas
+Version: 1.0
+Tags: two-columns, left-sidebar, custom-header, custom-menu, custom-logo, blog
+*/
+.top-bar .social-media-icons {
+  background: green;
+  height: 30px; }
+.top-bar .search {
+  background: red;
+  height: 30px; }
+
+.menu-area .menu ul li {
+  display: inline-block; }
+
+.footer-menu ul li {
+  display: inline-block; }
+
+.wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0; }
+
+.blog article {
+  display: inline-block; }
