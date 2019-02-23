@@ -1,0 +1,28 @@
+.boxes-content {
+    .box-align {
+        display: flex;
+        justify-content: space-between;
+        margin: 110px 0;
+        
+        .box {
+            background-color: $bg-blue-clear;
+            display: flex;
+            margin: 0 10px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+            h3 {
+                padding: 100px 70px 90px;
+                font-size: 30px;
+                text-transform: uppercase;
+                text-align: center;
+                span {
+                    margin: 0 70px;
+                }
+            }
+        }
+    }
+}

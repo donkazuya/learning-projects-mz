@@ -1,0 +1,15 @@
+footer {
+    background-color: $bg-blue-clear;
+    .text-footer {
+        display: flex;
+        align-items: center;
+    }
+    .social-media{
+        img {
+            margin: 30px 9px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}

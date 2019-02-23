@@ -1,0 +1,26 @@
+.header-menu {
+    background-color: $bg-blue-clear;
+    .logo {
+        padding: 25px 0;
+    }
+    .main-menu {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        ul {
+            display: inline-flex;
+            list-style-type: none;
+            li {
+                padding: 0 15px;
+                text-transform: uppercase;
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .search {
+        display: flex;
+        align-items: center;
+    }
+}
