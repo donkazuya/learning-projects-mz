@@ -1,5 +1,8 @@
 .header-menu {
     background-color: $bg-blue-clear;
+    position: sticky;
+    top: 0;
+    z-index: 999;
     .logo {
         padding: 25px 0;
         img {
