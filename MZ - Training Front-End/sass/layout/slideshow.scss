@@ -1,5 +1,8 @@
 .slideshow {
     height: 420px;
+    .item-slide {
+        z-index: -1;
+    }
     .slick{
         &-next{
             right: 0;
@@ -17,12 +20,21 @@
             }
         }
         &-dots {
+            bottom: 31px;
             li {
                 button {
                     &:before {
                         font-size: 30px;
+                        color: #fff;
                     }
+
                 }
+            }
+            li.slick-active button{
+                &:before {
+                    color: #fff;
+                }
+                
             }
         }
     }

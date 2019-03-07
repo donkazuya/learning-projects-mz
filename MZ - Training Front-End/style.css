@@ -3558,6 +3558,9 @@ html {
 .slideshow {
   height: 420px;
 }
+.slideshow .item-slide {
+  z-index: -1;
+}
 .slideshow .slick-next {
   right: 0;
 }
@@ -3572,8 +3575,15 @@ html {
 .slideshow .slick-prev:before, .slideshow .slick-next:before {
   font-size: 100px;
 }
+.slideshow .slick-dots {
+  bottom: 31px;
+}
 .slideshow .slick-dots li button:before {
   font-size: 30px;
+  color: #fff;
+}
+.slideshow .slick-dots li.slick-active button:before {
+  color: #fff;
 }
 
 .boxes-content .box-align {
