@@ -2,6 +2,9 @@
     background-color: $bg-blue-clear;
     .logo {
         padding: 25px 0;
+        img {
+            width: 115px;
+        }
     }
     .main-menu {
         display: flex;
@@ -22,5 +25,9 @@
     .search {
         display: flex;
         align-items: center;
+        img {
+            width: 35px;
+            cursor: pointer;
+        }
     }
 }

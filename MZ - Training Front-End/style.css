@@ -3534,6 +3534,9 @@ html {
 .header-menu .logo {
   padding: 25px 0;
 }
+.header-menu .logo img {
+  width: 115px;
+}
 .header-menu .main-menu {
   display: flex;
   align-items: center;
@@ -3553,6 +3556,10 @@ html {
 .header-menu .search {
   display: flex;
   align-items: center;
+}
+.header-menu .search img {
+  width: 35px;
+  cursor: pointer;
 }
 
 .slideshow {
