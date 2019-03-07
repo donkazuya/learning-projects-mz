@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>MZ - Testing Front</title>
 </head>
@@ -30,8 +31,21 @@
     </header>
     <main>
         <section class="slideshow">
-
+            <div class="item-slide"><img src="img/image-js.jpg" alt=""></div>
+            <div class="item-slide"><img src="img/image-japan.jpg" alt=""></div>
+            <div class="item-slide"><img src="img/image-crypt.jpg" alt=""></div>
         </section>
+        <script>
+            $(document).ready(function() {
+                $('.slideshow').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 1000,
+                    slidesToShow: 1,
+                    adaptiveHeight: true
+                });
+            });
+        </script>
         <section class="boxes-content">
             <div class="container">
                 <div class="box-align">
@@ -62,5 +76,8 @@
             </div>
         </div>
     </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>
