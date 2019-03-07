@@ -3569,6 +3569,7 @@ html {
   background-color: #008dd1;
   display: flex;
   margin: 0 10px;
+  max-width: 32.1%;
 }
 .boxes-content .box-align .box:first-child {
   margin-left: 0;
