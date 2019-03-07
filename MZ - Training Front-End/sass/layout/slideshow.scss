@@ -1,4 +1,29 @@
 .slideshow {
-    background-color: #000;
     height: 420px;
+    .slick{
+        &-next{
+            right: 0;
+        }
+        &-prev {
+            left: 0;
+            z-index: 2;
+        }
+        &-prev, 
+        &-next {
+            width:100px;
+            height: 100px;
+            &:before {
+                font-size: 100px;
+            }
+        }
+        &-dots {
+            li {
+                button {
+                    &:before {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
 }
